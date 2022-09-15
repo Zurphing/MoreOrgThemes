@@ -1,0 +1,98 @@
+title: More Org Battle Themes
+description: Gives Marluxia, Larxene, Xigbar, Luxord, and Saix unique battle themes.
+assets:
+- name: ard/eh10.ard #Xigbar Arena
+  platform: pc
+  multi:
+  - name: ard/us/eh10.ard
+  - name: ard/fr/eh10.ard
+  - name: ard/gr/eh10.ard
+  - name: ard/it/eh10.ard
+  - name: ard/sp/eh10.ard
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/evt[eh10].script
+- name: ard/eh14.ard #Luxord Arena
+  platform: pc
+  multi:
+  - name: ard/us/eh14.ard
+  - name: ard/fr/eh14.ard
+  - name: ard/gr/eh14.ard
+  - name: ard/it/eh14.ard
+  - name: ard/sp/eh14.ard
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/evt[eh14].script
+- name: ard/eh15.ard #Saix Arena
+  platform: pc
+  multi:
+  - name: ard/us/eh15.ard
+  - name: ard/fr/eh15.ard
+  - name: ard/gr/eh15.ard
+  - name: ard/it/eh15.ard
+  - name: ard/sp/eh15.ard
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/evt[eh15].script
+- name: ard/hb33.ard #Station of Remembrance (AS Warp) (ARD Based on GoA ROMs)
+  platform: pc
+  multi:
+  - name: ard/us/hb33.ard
+  - name: ard/fr/hb33.ard
+  - name: ard/gr/hb33.ard
+  - name: ard/it/hb33.ard
+  - name: ard/sp/hb33.ard
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/evt[hb33].script
+- name: ard/hb38.ard #Station of Oblivion (ARD Based on GoA ROMs)
+  platform: pc
+  multi:
+  - name: ard/us/hb38.ard
+  - name: ard/fr/hb38.ard
+  - name: ard/gr/hb38.ard
+  - name: ard/it/hb38.ard
+  - name: ard/sp/hb38.ard
+  method: binarc
+  source:
+  - name: evt
+    type: areadatascript
+    method: areadatascript
+    source:
+    - name: ard/evt[hb38].script
+- name: bgm/music150.win32.scd
+  method: copy
+  source:
+  - name: music150.win32.scd
+- name: bgm/music598.win32.scd
+  method: copy
+  source:
+  - name: music598.win32.scd
+- name: bgm/music599.win32.scd
+  method: copy
+  source:
+  - name: music599.win32.scd
+- name: bgm/music600.win32.scd
+  method: copy
+  source:
+  - name: music600.win32.scd
+- name: bgm/music601.win32.scd
+  method: copy
+  source:
+  - name: music601.win32.scd
