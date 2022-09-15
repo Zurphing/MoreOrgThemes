@@ -1,0 +1,38 @@
+Program 0x6C
+Party W_FRIEND_IN
+Bgm 599 599
+AreaSettings 0 -1
+	SetProgressFlag 0x484B
+	SetUnk05 0x2
+	SetEvent "606" Type 3
+	SetJump Type 1 World HB Area 26 Entrance 22 LocalSet 0 FadeType 1
+	SetInventory 555
+	SetPartyMenu 0
+
+
+Program 0x39
+Bgm 599 599
+Layout "file/%s/b_ex140.2ld"
+AreaSettings 16 -1
+	SetProgressFlag 0x4812
+	SetUnk05 0x3
+	SetEvent "114" Type 18
+	SetJump Type 1 World EH Area 10 Entrance 50 LocalSet 0 FadeType 1
+	SetInventory 527
+	SetPartyMenu 0
+
+
+Program 0x64
+Bgm 599 599
+AreaSettings 16 -1
+	SetProgressFlag 0x484F
+	SetJump Type 2 World EH Area 0 Entrance 0 LocalSet 108 FadeType 16386
+	SetPartyMenu 0
+
+
+Program 0xE8
+Bgm Default Default
+AreaSettings 0 -1
+	SetEvent "114" Type 66
+	SetJump Type 2 World EH Area 0 Entrance 0 LocalSet 233 FadeType 1
+	SetPartyMenu 0
