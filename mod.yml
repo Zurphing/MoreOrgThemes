@@ -72,10 +72,10 @@ assets:
     method: areadatascript
     source:
     - name: ard/hb38/evt.script
-- name: bgm/music150.win32.scd
+- name: bgm/music602.win32.scd
   method: copy
   source:
-  - name: music150.win32.scd
+  - name: music602.win32.scd
 - name: bgm/music598.win32.scd
   method: copy
   source:
