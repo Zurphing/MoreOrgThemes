@@ -1,8 +1,8 @@
 title: More Org Battle Themes
 description: Gives Marluxia, Larxene, Xigbar, Luxord, and Saix unique battle themes.
-assets:
-#ARD Edits:
+assets: 
 - name: ard/eh10.ard #Xigbar Arena
+  platform: pc
   multi:
   - name: ard/us/eh10.ard
   - name: ard/fr/eh10.ard
@@ -11,12 +11,39 @@ assets:
   - name: ard/sp/eh10.ard
   method: binarc
   source:
+  - name: 111
+    type: event
+    method: copy
+    source:
+    - name: ard/eh10/111_0.event
+  - name: 113
+    type: event
+    method: copy
+    source:
+    - name: ard/eh10/113_0.event
+  - name: 114
+    type: event
+    method: copy
+    source:
+    - name: ard/eh10/114_0.event
+  - name: 605
+    type: event
+    method: copy
+    source:
+    - name: ard/eh10/605_0.event
+  - name: 606
+    type: event
+    method: copy
+    source:
+    - name: ard/eh10/606_0.event
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/eh10/evt.script
+
 - name: ard/eh14.ard #Luxord Arena
+  platform: pc
   multi:
   - name: ard/us/eh14.ard
   - name: ard/fr/eh14.ard
@@ -25,12 +52,34 @@ assets:
   - name: ard/sp/eh14.ard
   method: binarc
   source:
+  - name: 118
+    type: event
+    method: copy
+    source:
+    - name: ard/eh14/118_0.event
+  - name: 119
+    type: event
+    method: copy
+    source:
+    - name: ard/eh14/119_0.event
+  - name: 609
+    type: event
+    method: copy
+    source:
+    - name: ard/eh14/609_0.event
+  - name: 610
+    type: event
+    method: copy
+    source:
+    - name: ard/eh14/610_0.event
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/eh14/evt.script
+
 - name: ard/eh15.ard #Saix Arena
+  platform: pc
   multi:
   - name: ard/us/eh15.ard
   - name: ard/fr/eh15.ard
@@ -39,12 +88,39 @@ assets:
   - name: ard/sp/eh15.ard
   method: binarc
   source:
+  - name: 121
+    type: event
+    method: copy
+    source:
+    - name: ard/eh15/121_0.event
+  - name: 122a
+    type: event
+    method: copy
+    source:
+    - name: ard/eh15/122a_0.event
+  - name: 122b
+    type: event
+    method: copy
+    source:
+    - name: ard/eh15/122b_0.event
+  - name: 607
+    type: event
+    method: copy
+    source:
+    - name: ard/eh15/607_0.event
+  - name: 608
+    type: event
+    method: copy
+    source:
+    - name: ard/eh15/608_0.event
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/eh15/evt.script
-- name: ard/hb33.ard #Station of Remembrance (AS Warp)
+
+- name: ard/hb33.ard #Larxene/Lexaeus Arena, only Larxene
+  platform: pc
   multi:
   - name: ard/us/hb33.ard
   - name: ard/fr/hb33.ard
@@ -53,12 +129,34 @@ assets:
   - name: ard/sp/hb33.ard
   method: binarc
   source:
+  - name: 729
+    type: event
+    method: copy
+    source:
+    - name: ard/hb33/729_0.event
+  - name: 730
+    type: event
+    method: copy
+    source:
+    - name: ard/hb33/730_0.event
+  - name: 739
+    type: event
+    method: copy
+    source:
+    - name: ard/hb33/739_0.event
+  - name: 740
+    type: event
+    method: copy
+    source:
+    - name: ard/hb33/740_0.event
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/hb33/evt.script
-- name: ard/hb38.ard #Station of Oblivion
+
+- name: ard/hb38.ard #Marluxia Arena
+  platform: pc
   multi:
   - name: ard/us/hb38.ard
   - name: ard/fr/hb38.ard
@@ -67,28 +165,54 @@ assets:
   - name: ard/sp/hb38.ard
   method: binarc
   source:
+  - name: 727
+    type: event
+    method: copy
+    source:
+    - name: ard/hb38/727_0.event
+  - name: 728
+    type: event
+    method: copy
+    source:
+    - name: ard/hb38/728_0.event
+  - name: 737
+    type: event
+    method: copy
+    source:
+    - name: ard/hb38/737_0.event
+  - name: 738
+    type: event
+    method: copy
+    source:
+    - name: ard/hb38/738_0.event
   - name: evt
     type: areadatascript
     method: areadatascript
     source:
     - name: ard/hb38/evt.script
+
 - name: bgm/music602.win32.scd
+  platform: pc
   method: copy
   source:
-  - name: music602.win32.scd
+  - name: music150.win32.scd
 - name: bgm/music598.win32.scd
+  platform: pc
   method: copy
   source:
   - name: music598.win32.scd
 - name: bgm/music599.win32.scd
+  platform: pc
   method: copy
   source:
   - name: music599.win32.scd
 - name: bgm/music600.win32.scd
+  platform: pc
   method: copy
   source:
   - name: music600.win32.scd
 - name: bgm/music601.win32.scd
+  platform: pc
   method: copy
   source:
   - name: music601.win32.scd
