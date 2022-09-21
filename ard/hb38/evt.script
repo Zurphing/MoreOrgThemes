@@ -1,5 +1,5 @@
 Program 0x96
-Bgm 150 150
+Bgm 602 602
 AreaSettings 16 -1
 	SetProgressFlag 0x10B7
 	SetJump Type 2 World HB Area 0 Entrance 0 LocalSet 137 FadeType 16386
@@ -7,7 +7,7 @@ AreaSettings 16 -1
 
 
 Program 0x91
-Bgm 150 150
+Bgm 602 602
 AreaSettings 16 -1
 	SetProgressFlag 0x109F
 	SetJump Type 2 World HB Area 0 Entrance 0 LocalSet 127 FadeType 16386
